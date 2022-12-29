@@ -4,4 +4,4 @@ COPY package.json /app
 RUN npm install
 COPY . /app
 CMD node express1.js
-EXPOSE 8081
+EXPOSE 4001
