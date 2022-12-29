@@ -30,5 +30,5 @@ app.get("/home",function(req,resp){
     resp.send("<h1>In home url</h1>")
 });
 
-app.listen(9000);
-console.log("server is running at port 9000")
+app.listen(4001);
+console.log("server is running at port 4001")
